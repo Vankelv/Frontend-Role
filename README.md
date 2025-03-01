@@ -1,12 +1,64 @@
-# React + Vite
+# Vercel Homepage Clone - Frontend Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project is a pixel-perfect recreation of the Vercel homepage, built as a frontend development challenge. It demonstrates modern web development practices, responsive design, and attention to detail.
 
-Currently, two official plugins are available:
+## Author
+- **Name:** Van Kelvin
+- **Website:** [van.vinetrix.com](https://van.vinetrix.com)
+- **Email:** vankelvin603@gmail.com
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React + Vite
+- Tailwind CSS for styling
+- Framer Motion for animations
+- React Router for navigation
 
-## Expanding the ESLint configuration
+## Features
+- Responsive design that matches Vercel's homepage
+- Smooth animations and transitions
+- Interactive components and hover states
+- Modern, clean code architecture
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd Frontend-Role
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Run the development server:
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
+
+## Project Structure
+```
+src/
+├── components/     # React components
+├── assets/         # Static assets
+├── styles/         # CSS and Tailwind styles
+└── App.jsx         # Main application component
+```
+
+## Development
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+
+## Design Considerations
+- Faithful recreation of Vercel's design system
+- Performance optimization
+- Accessibility compliance
+- Clean, maintainable code structure
+
+## License
+MIT
