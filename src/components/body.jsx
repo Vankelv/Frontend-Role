@@ -292,10 +292,7 @@ const Body = () => {
               </div>
 
               {/* Connection Line */}
-              <div
-                aria-hidden="true"
-                className="absolute left-[40%] "
-              >
+              <div aria-hidden="true" className="absolute left-[40%] ">
                 <svg
                   data-size="large"
                   fill="none"
@@ -354,9 +351,9 @@ const Body = () => {
                     </clipPath>
                   </defs>
                 </svg>
-                <div className="absolute top-1/2 left-1/2 bg-gray-900 rounded-full transform -translate-x-1/2 p-2 border  border-gray-600 -translate-y-1/2">
-                    <FaClockRotateLeft className=" text-neutral-600 dark:text-neutral-400" />
-                  </div>
+                <div className="absolute top-1/2 left-1/2 bg-[#F9F9F9] dark:bg-gray-900 rounded-full transform -translate-x-1/2 p-2 border border-gray-200 dark:border-gray-600 -translate-y-1/2">
+                  <FaClockRotateLeft className=" text-neutral-400 dark:text-neutral-400" />
+                </div>
               </div>
 
               {/* Second Deployment Card */}
@@ -448,8 +445,21 @@ const Body = () => {
                       <span className="text-neutral-300">9.5</span>
                     </div>
                     <div className="flex -space-x-1">
-                      <div className="w-6 h-6 rounded-full bg-neutral-700"></div>
-                      <div className="w-6 h-6 rounded-full bg-neutral-600"></div>
+                      <img
+                        src="https://vercel.com/api/www/avatar?u=gennydee&s=44"
+                        alt="avatar"
+                        className="w-6 h-6 rounded-full border dark:border-[#141414] border-[#f9f9f9]"
+                      />
+                      <img
+                        src="https://vercel.com/api/www/avatar?u=jared&s=44"
+                        alt="avatar"
+                        className="w-6 h-6 rounded-full border dark:border-[#141414] border-[#f9f9f9]"
+                      />
+                      <img
+                        src="https://vercel.com/api/www/avatar?u=jared&s=44"
+                        alt="avatar"
+                        className="w-6 h-6 rounded-full border dark:border-[#141414] border-[#f9f9f9]"
+                      />
                     </div>
                   </div>
                 </div>
@@ -459,9 +469,31 @@ const Body = () => {
                   <div className="flex items-center justify-between">
                     <span className="text-neutral-300">34</span>
                     <div className="flex -space-x-1">
-                      <div className="w-6 h-6 rounded-full bg-neutral-700"></div>
-                      <div className="w-6 h-6 rounded-full bg-neutral-600"></div>
-                      <div className="w-6 h-6 rounded-full bg-neutral-500"></div>
+                      <img
+                        src="https://vercel.com/api/www/avatar?u=gennydee&s=44"
+                        alt="avatar"
+                        className="w-6 h-6 rounded-full border dark:border-[#141414] border-[#f9f9f9]"
+                      />
+                      <img
+                        src="https://vercel.com/api/www/avatar?u=jared&s=44"
+                        alt="avatar"
+                        className="w-6 h-6 rounded-full border dark:border-[#141414] border-[#f9f9f9]"
+                      />
+                      <img
+                        src="https://vercel.com/api/www/avatar?u=jared&s=44"
+                        alt="avatar"
+                        className="w-6 h-6 rounded-full border dark:border-[#141414] border-[#f9f9f9]"
+                      />
+                      <img
+                        src="https://vercel.com/api/www/avatar?u=timer&s=44"
+                        alt="avatar"
+                        className="w-6 h-6 rounded-full border dark:border-[#141414] border-[#f9f9f9]"
+                      />
+                      <img
+                        src="https://vercel.com/api/www/avatar?u=jared&s=44"
+                        alt="avatar"
+                        className="w-6 h-6 rounded-full border dark:border-[#141414] border-[#f9f9f9]"
+                      />
                     </div>
                   </div>
                 </div>
@@ -471,9 +503,21 @@ const Body = () => {
                   <div className="flex items-center justify-between">
                     <span className="text-neutral-300">12</span>
                     <div className="flex -space-x-1">
-                      <div className="w-6 h-6 rounded-full bg-neutral-700"></div>
-                      <div className="w-6 h-6 rounded-full bg-neutral-600"></div>
-                      <div className="w-6 h-6 rounded-full bg-neutral-500"></div>
+                      <img
+                        src="https://vercel.com/api/www/avatar?u=gennydee&s=44"
+                        alt="avatar"
+                        className="w-6 h-6 rounded-full border dark:border-[#141414] border-[#f9f9f9]"
+                      />
+                      <img
+                        src="https://vercel.com/api/www/avatar?u=timer&s=44"
+                        alt="avatar"
+                        className="w-6 h-6 rounded-full border dark:border-[#141414] border-[#f9f9f9]"
+                      />
+                      <img
+                        src="https://vercel.com/api/www/avatar?u=jared&s=44"
+                        alt="avatar"
+                        className="w-6 h-6 rounded-full border dark:border-[#141414] border-[#f9f9f9]"
+                      />
                     </div>
                   </div>
                 </div>
@@ -536,7 +580,10 @@ const Body = () => {
           <div className="flex-none w-full lg:w-1/2">
             <div className="lg:text-right text-center w-full">
               <p className="text-sm text-gray-600 dark:text-gray-400">
-                <span className="text-black dark:text-white">Explore Vercel Enterprise </span> with an interactive product tour, trial, or a personalized demo.
+                <span className="text-black dark:text-white">
+                  Explore Vercel Enterprise{" "}
+                </span>{" "}
+                with an interactive product tour, trial, or a personalized demo.
               </p>
               <button className="mt-4 px-6 py-2.5 bg-black text-white border border-neutral-800 rounded-full hover:bg-neutral-900 transition-all">
                 Explore Enterprise
