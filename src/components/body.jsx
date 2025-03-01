@@ -536,12 +536,12 @@ const Body = () => {
         >
           <h2 className="inline-flex flex-wrap justify-center text-black items-center gap-3 text-xl font-medium dark:text-white">
             <span>Scale your</span>
-            <div className="inline-flex items-center gap-2 text-white px-4 py-2 rounded-full bg-neutral-900 border border-neutral-800">
+            <div className="inline-flex items-center gap-2 text-gray-600 dark:text-white px-4 py-2 rounded-full dark:bg-neutral-900 border border-gray-300 dark:border-neutral-800">
               <IoBusinessOutline size={15} />
               <span className="text-sm">Enterprise</span>
             </div>
             <span>without compromising</span>
-            <div className="inline-flex items-center gap-2 text-white px-4 py-2 rounded-full bg-neutral-900 border border-neutral-800">
+            <div className="inline-flex items-center gap-2 text-gray-600 dark:text-white px-4 py-2 rounded-full dark:bg-neutral-900 border border-gray-300 dark:border-neutral-800">
               <RiShieldCheckLine size={15} />
               <span className="text-sm">Security</span>
             </div>
@@ -569,10 +569,10 @@ const Body = () => {
               <span className="text-purple-500">Enterprise</span> needs.
             </p>
             <div className="flex flex-wrap gap-4 mt-6">
-              <button className="px-6 py-2.5 bg-white text-black dark:bg-white dark:text-black rounded-full hover:bg-neutral-100 transition-all">
+              <button className="px-6 py-2.5  text-white bg-black dark:bg-white dark:text-black rounded-full hover:bg-neutral-100 transition-all">
                 Start Deploying
               </button>
-              <button className="px-6 py-2.5 bg-black text-white border border-neutral-800 rounded-full hover:bg-neutral-900 transition-all">
+              <button className="px-6 py-2.5 dark:bg-black text-gray-700 dark:text-white border border-gray-300 dark:border-neutral-800 rounded-full hover:bg-neutral-900 transition-all">
                 Talk to an Expert
               </button>
             </div>
@@ -585,7 +585,7 @@ const Body = () => {
                 </span>{" "}
                 with an interactive product tour, trial, or a personalized demo.
               </p>
-              <button className="mt-4 px-6 py-2.5 bg-black text-white border border-neutral-800 rounded-full hover:bg-neutral-900 transition-all">
+              <button className="mt-4 px-6 py-2.5 dark:bg-black text-gray-700 dark:text-white border border-gray-300 dark:border-neutral-800 rounded-full hover:bg-neutral-900 transition-all">
                 Explore Enterprise
               </button>
             </div>
